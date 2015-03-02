@@ -153,7 +153,7 @@ describe('extractData()', function () {
 
             it('should recusively expand `locales` to their roots', function () {
                 var data = extractData({
-                    locales       : ['en-US', 'zh-Hant-TW'],
+                    locales       : ['en-us', 'zh-hant-tw'],
                     pluralRules   : true,
                     relativeFields: true,
                 });
