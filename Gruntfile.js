@@ -6,6 +6,8 @@
 'use strict';
 
 module.exports = function (grunt) {
+    var cldrVersion = '27.0.3';
+
     grunt.initConfig({
         clean: {
             data: 'data/',
@@ -13,30 +15,48 @@ module.exports = function (grunt) {
         },
 
         curl: {
-            cldr: {
-                src : 'http://unicode.org/Public/cldr/latest/json-full.zip',
-                dest: 'tmp/cldr.zip',
+            'cldr-core': {
+                src : 'https://github.com/unicode-cldr/cldr-core/archive/' + cldrVersion + '.zip',
+                dest: 'tmp/cldr-core.zip',
+            },
+
+            'cldr-dates-full': {
+                src : 'https://github.com/unicode-cldr/cldr-dates-full/archive/' + cldrVersion + '.zip',
+                dest: 'tmp/cldr-dates-full.zip',
             },
         },
 
         unzip: {
-            cldr: {
-                src : 'tmp/cldr.zip',
-                dest: 'tmp/cldr/',
+            'cldr-core': {
+                src : 'tmp/cldr-core.zip',
+                dest: 'tmp/',
+            },
+
+            'cldr-dates-full': {
+                src : 'tmp/cldr-dates-full.zip',
+                dest: 'tmp/',
             },
         },
 
         copy: {
-            cldr_data: {
+            'cldr-core': {
                 expand: true,
-                cwd   : 'tmp/cldr/',
+                cwd   : 'tmp/cldr-core-' + cldrVersion + '/',
                 dest  : 'data/',
                 src   : [
-                    '*-license.*',
-                    'main/*/dateFields.json',
+                    'LICENSE',
                     'supplemental/parentLocales.json',
                     'supplemental/plurals.json',
                     'supplemental/ordinals.json',
+                ]
+            },
+
+            'cldr-dates-full': {
+                expand: true,
+                cwd   : 'tmp/cldr-dates-full-' + cldrVersion + '/',
+                dest  : 'data/',
+                src   : [
+                    'main/*/dateFields.json',
                 ]
             },
         },
