@@ -3,11 +3,11 @@
     "kw": {
       "identity": {
         "version": {
-          "_cldrVersion": "26",
-          "_number": "$Revision: 10669 $"
+          "_cldrVersion": "27.0.1",
+          "_number": "$Revision: 11232 $"
         },
         "generation": {
-          "_date": "$Date: 2014-07-23 16:10:33 -0500 (Wed, 23 Jul 2014) $"
+          "_date": "$Date: 2015-02-18 13:55:51 -0600 (Wed, 18 Feb 2015) $"
         },
         "language": "kw"
       },
@@ -17,7 +17,7 @@
             "displayName": "Era"
           },
           "year": {
-            "displayName": "Bledhen",
+            "displayName": "Year",
             "relative-type--1": "last year",
             "relative-type-0": "this year",
             "relative-type-1": "next year",
@@ -29,7 +29,7 @@
             }
           },
           "year-short": {
-            "displayName": "Bledhen",
+            "displayName": "Year",
             "relative-type--1": "last year",
             "relative-type-0": "this year",
             "relative-type-1": "next year",
@@ -41,7 +41,7 @@
             }
           },
           "year-narrow": {
-            "displayName": "Bledhen",
+            "displayName": "Year",
             "relative-type--1": "last year",
             "relative-type-0": "this year",
             "relative-type-1": "next year",
@@ -89,7 +89,7 @@
             }
           },
           "month": {
-            "displayName": "Mis",
+            "displayName": "Month",
             "relative-type--1": "last month",
             "relative-type-0": "this month",
             "relative-type-1": "next month",
@@ -101,7 +101,7 @@
             }
           },
           "month-short": {
-            "displayName": "Mis",
+            "displayName": "Month",
             "relative-type--1": "last month",
             "relative-type-0": "this month",
             "relative-type-1": "next month",
@@ -113,7 +113,7 @@
             }
           },
           "month-narrow": {
-            "displayName": "Mis",
+            "displayName": "Month",
             "relative-type--1": "last month",
             "relative-type-0": "this month",
             "relative-type-1": "next month",
@@ -125,7 +125,7 @@
             }
           },
           "week": {
-            "displayName": "Seythun",
+            "displayName": "Week",
             "relative-type--1": "last week",
             "relative-type-0": "this week",
             "relative-type-1": "next week",
@@ -137,7 +137,7 @@
             }
           },
           "week-short": {
-            "displayName": "Seythun",
+            "displayName": "Week",
             "relative-type--1": "last week",
             "relative-type-0": "this week",
             "relative-type-1": "next week",
@@ -149,7 +149,7 @@
             }
           },
           "week-narrow": {
-            "displayName": "Seythun",
+            "displayName": "Week",
             "relative-type--1": "last week",
             "relative-type-0": "this week",
             "relative-type-1": "next week",
@@ -161,7 +161,7 @@
             }
           },
           "day": {
-            "displayName": "Dedh",
+            "displayName": "Day",
             "relative-type--1": "yesterday",
             "relative-type-0": "today",
             "relative-type-1": "tomorrow",
@@ -173,7 +173,7 @@
             }
           },
           "day-short": {
-            "displayName": "Dedh",
+            "displayName": "Day",
             "relative-type--1": "yesterday",
             "relative-type-0": "today",
             "relative-type-1": "tomorrow",
@@ -185,7 +185,7 @@
             }
           },
           "day-narrow": {
-            "displayName": "Dedh",
+            "displayName": "Day",
             "relative-type--1": "yesterday",
             "relative-type-0": "today",
             "relative-type-1": "tomorrow",
@@ -197,7 +197,7 @@
             }
           },
           "weekday": {
-            "displayName": "Dedh an seythun"
+            "displayName": "Day of the Week"
           },
           "sun": {
             "relative-type--1": "last Sunday",
@@ -305,10 +305,10 @@
             "relative-type-1": "next Saturday"
           },
           "dayperiod": {
-            "displayName": "AM/PM"
+            "displayName": "Dayperiod"
           },
           "hour": {
-            "displayName": "Eur",
+            "displayName": "Hour",
             "relativeTime-type-future": {
               "relativeTimePattern-count-other": "+{0} h"
             },
@@ -317,7 +317,7 @@
             }
           },
           "hour-short": {
-            "displayName": "Eur",
+            "displayName": "Hour",
             "relativeTime-type-future": {
               "relativeTimePattern-count-other": "+{0} h"
             },
@@ -326,7 +326,7 @@
             }
           },
           "hour-narrow": {
-            "displayName": "Eur",
+            "displayName": "Hour",
             "relativeTime-type-future": {
               "relativeTimePattern-count-other": "+{0} h"
             },

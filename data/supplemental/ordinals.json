@@ -1,11 +1,11 @@
 {
   "supplemental": {
     "version": {
-      "_cldrVersion": "26",
-      "_number": "$Revision: 10807 $"
+      "_unicodeVersion": "7.0.0",
+      "_number": "$Revision: 11229 $"
     },
     "generation": {
-      "_date": "$Date: 2014-08-14 14:43:27 -0500 (Thu, 14 Aug 2014) $"
+      "_date": "$Date: 2015-02-18 09:11:57 -0600 (Wed, 18 Feb 2015) $"
     },
     "plurals-type-ordinal": {
       "af": {
@@ -16,6 +16,13 @@
       },
       "ar": {
         "pluralRule-count-other": " @integer 0~15, 100, 1000, 10000, 100000, 1000000, …"
+      },
+      "as": {
+        "pluralRule-count-one": "n = 1,5,7,8,9,10 @integer 1, 5, 7~10",
+        "pluralRule-count-two": "n = 2,3 @integer 2, 3",
+        "pluralRule-count-few": "n = 4 @integer 4",
+        "pluralRule-count-many": "n = 6 @integer 6",
+        "pluralRule-count-other": " @integer 0, 11~25, 100, 1000, 10000, 100000, 1000000, …"
       },
       "az": {
         "pluralRule-count-one": "i % 10 = 1,2,5,7,8 or i % 100 = 20,50,70,80 @integer 1, 2, 5, 7, 8, 11, 12, 15, 17, 18, 20~22, 25, 101, 1001, …",
@@ -41,6 +48,9 @@
         "pluralRule-count-two": "n = 2 @integer 2",
         "pluralRule-count-few": "n = 4 @integer 4",
         "pluralRule-count-other": " @integer 0, 5~19, 100, 1000, 10000, 100000, 1000000, …"
+      },
+      "ce": {
+        "pluralRule-count-other": " @integer 0~15, 100, 1000, 10000, 100000, 1000000, …"
       },
       "cs": {
         "pluralRule-count-other": " @integer 0~15, 100, 1000, 10000, 100000, 1000000, …"

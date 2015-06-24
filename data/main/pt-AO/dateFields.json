@@ -3,7 +3,7 @@
     "pt-AO": {
       "identity": {
         "version": {
-          "_cldrVersion": "26",
+          "_cldrVersion": "27.0.1",
           "_number": "$Revision: 10669 $"
         },
         "generation": {
@@ -342,7 +342,7 @@
             "relative-type-1": "próximo sáb."
           },
           "dayperiod": {
-            "displayName": "Da manhã/da tarde"
+            "displayName": "AM/PM"
           },
           "hour": {
             "displayName": "Hora",

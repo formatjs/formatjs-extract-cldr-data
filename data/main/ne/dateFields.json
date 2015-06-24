@@ -3,11 +3,11 @@
     "ne": {
       "identity": {
         "version": {
-          "_cldrVersion": "26",
-          "_number": "$Revision: 10895 $"
+          "_cldrVersion": "27.0.1",
+          "_number": "$Revision: 11294 $"
         },
         "generation": {
-          "_date": "$Date: 2014-09-01 13:57:54 -0500 (Mon, 01 Sep 2014) $"
+          "_date": "$Date: 2015-02-23 16:50:24 -0600 (Mon, 23 Feb 2015) $"
         },
         "language": "ne"
       },
@@ -17,7 +17,7 @@
             "displayName": "काल"
           },
           "year": {
-            "displayName": "बर्ष",
+            "displayName": "वर्ष",
             "relative-type--1": "पहिलो वर्ष",
             "relative-type-0": "यो वर्ष",
             "relative-type-1": "अर्को वर्ष",
@@ -190,6 +190,7 @@
             "relative-type--2": "अस्ति",
             "relative-type-0": "आज",
             "relative-type-1": "भोली",
+            "relative-type-2": "पर्सि",
             "relativeTime-type-future": {
               "relativeTimePattern-count-one": "{0} दिनमा",
               "relativeTimePattern-count-other": "{0} दिनमा"
@@ -205,6 +206,7 @@
             "relative-type--2": "अस्ति",
             "relative-type-0": "आज",
             "relative-type-1": "भोली",
+            "relative-type-2": "पर्सि",
             "relativeTime-type-future": {
               "relativeTimePattern-count-one": "{0} दिनमा",
               "relativeTimePattern-count-other": "{0} दिनमा"
@@ -220,6 +222,7 @@
             "relative-type--2": "अस्ति",
             "relative-type-0": "आज",
             "relative-type-1": "भोली",
+            "relative-type-2": "पर्सि",
             "relativeTime-type-future": {
               "relativeTimePattern-count-one": "{0} दिनमा",
               "relativeTimePattern-count-other": "{0} दिनमा"
@@ -338,7 +341,7 @@
             "relative-type-1": "अर्को शनिबार"
           },
           "dayperiod": {
-            "displayName": "पूर्व मध्यान्ह/उत्तर मध्यान्ह"
+            "displayName": "पूर्वाह्न / अपराह्न"
           },
           "hour": {
             "displayName": "घण्टा",
@@ -407,7 +410,7 @@
             }
           },
           "second": {
-            "displayName": "दोस्रो",
+            "displayName": "सेकेन्ड",
             "relative-type-0": "अब",
             "relativeTime-type-future": {
               "relativeTimePattern-count-one": "{0} सेकेण्डमा",
@@ -419,7 +422,7 @@
             }
           },
           "second-short": {
-            "displayName": "दोस्रो",
+            "displayName": "सेकेन्ड",
             "relative-type-0": "अब",
             "relativeTime-type-future": {
               "relativeTimePattern-count-one": "{0} सेकेण्डमा",
@@ -431,7 +434,7 @@
             }
           },
           "second-narrow": {
-            "displayName": "दोस्रो",
+            "displayName": "सेकेन्ड",
             "relative-type-0": "अब",
             "relativeTime-type-future": {
               "relativeTimePattern-count-one": "{0} सेकेण्डमा",
@@ -443,7 +446,7 @@
             }
           },
           "zone": {
-            "displayName": "क्षेत्र"
+            "displayName": "समय क्षेत्र"
           }
         }
       }

@@ -3,7 +3,7 @@
     "kl": {
       "identity": {
         "version": {
-          "_cldrVersion": "26",
+          "_cldrVersion": "27.0.1",
           "_number": "$Revision: 10669 $"
         },
         "generation": {
@@ -14,13 +14,13 @@
       "dates": {
         "fields": {
           "era": {
-            "displayName": "æra"
+            "displayName": "Era"
           },
           "year": {
-            "displayName": "ukioq",
-            "relative-type--1": "kingulleq ukioq",
-            "relative-type-0": "manna ukioq",
-            "relative-type-1": "tulleq ukioq",
+            "displayName": "Year",
+            "relative-type--1": "last year",
+            "relative-type-0": "this year",
+            "relative-type-1": "next year",
             "relativeTime-type-future": {
               "relativeTimePattern-count-one": "om {0} ukioq",
               "relativeTimePattern-count-other": "om {0} ukioq"
@@ -31,10 +31,10 @@
             }
           },
           "year-short": {
-            "displayName": "ukioq",
-            "relative-type--1": "kingulleq ukioq",
-            "relative-type-0": "manna ukioq",
-            "relative-type-1": "tulleq ukioq",
+            "displayName": "Year",
+            "relative-type--1": "last year",
+            "relative-type-0": "this year",
+            "relative-type-1": "next year",
             "relativeTime-type-future": {
               "relativeTimePattern-count-one": "om {0} ukioq",
               "relativeTimePattern-count-other": "om {0} ukioq"
@@ -45,10 +45,10 @@
             }
           },
           "year-narrow": {
-            "displayName": "ukioq",
-            "relative-type--1": "kingulleq ukioq",
-            "relative-type-0": "manna ukioq",
-            "relative-type-1": "tulleq ukioq",
+            "displayName": "Year",
+            "relative-type--1": "last year",
+            "relative-type-0": "this year",
+            "relative-type-1": "next year",
             "relativeTime-type-future": {
               "relativeTimePattern-count-one": "om {0} ukioq",
               "relativeTimePattern-count-other": "om {0} ukioq"
@@ -95,10 +95,10 @@
             }
           },
           "month": {
-            "displayName": "qaammat",
-            "relative-type--1": "kingulleq qaammat",
-            "relative-type-0": "manna qaammat",
-            "relative-type-1": "tulleq qaammat",
+            "displayName": "Month",
+            "relative-type--1": "last month",
+            "relative-type-0": "this month",
+            "relative-type-1": "next month",
             "relativeTime-type-future": {
               "relativeTimePattern-count-one": "om {0} qaammat",
               "relativeTimePattern-count-other": "om {0} qaammat"
@@ -109,10 +109,10 @@
             }
           },
           "month-short": {
-            "displayName": "qaammat",
-            "relative-type--1": "kingulleq qaammat",
-            "relative-type-0": "manna qaammat",
-            "relative-type-1": "tulleq qaammat",
+            "displayName": "Month",
+            "relative-type--1": "last month",
+            "relative-type-0": "this month",
+            "relative-type-1": "next month",
             "relativeTime-type-future": {
               "relativeTimePattern-count-one": "om {0} qaammat",
               "relativeTimePattern-count-other": "om {0} qaammat"
@@ -123,10 +123,10 @@
             }
           },
           "month-narrow": {
-            "displayName": "qaammat",
-            "relative-type--1": "kingulleq qaammat",
-            "relative-type-0": "manna qaammat",
-            "relative-type-1": "tulleq qaammat",
+            "displayName": "Month",
+            "relative-type--1": "last month",
+            "relative-type-0": "this month",
+            "relative-type-1": "next month",
             "relativeTime-type-future": {
               "relativeTimePattern-count-one": "om {0} qaammat",
               "relativeTimePattern-count-other": "om {0} qaammat"
@@ -137,10 +137,10 @@
             }
           },
           "week": {
-            "displayName": "sapaatip-akunnera",
-            "relative-type--1": "kingulleq sapaatip-akunnera",
-            "relative-type-0": "manna sapaatip-akunnera",
-            "relative-type-1": "tulleq sapaatip-akunnera",
+            "displayName": "Week",
+            "relative-type--1": "last week",
+            "relative-type-0": "this week",
+            "relative-type-1": "next week",
             "relativeTime-type-future": {
               "relativeTimePattern-count-one": "om {0} sapaatip-akunnera",
               "relativeTimePattern-count-other": "om {0} sapaatip-akunnera"
@@ -151,10 +151,10 @@
             }
           },
           "week-short": {
-            "displayName": "sapaatip-akunnera",
-            "relative-type--1": "kingulleq sapaatip-akunnera",
-            "relative-type-0": "manna sapaatip-akunnera",
-            "relative-type-1": "tulleq sapaatip-akunnera",
+            "displayName": "Week",
+            "relative-type--1": "last week",
+            "relative-type-0": "this week",
+            "relative-type-1": "next week",
             "relativeTime-type-future": {
               "relativeTimePattern-count-one": "om {0} sapaatip-akunnera",
               "relativeTimePattern-count-other": "om {0} sapaatip-akunnera"
@@ -165,10 +165,10 @@
             }
           },
           "week-narrow": {
-            "displayName": "sapaatip-akunnera",
-            "relative-type--1": "kingulleq sapaatip-akunnera",
-            "relative-type-0": "manna sapaatip-akunnera",
-            "relative-type-1": "tulleq sapaatip-akunnera",
+            "displayName": "Week",
+            "relative-type--1": "last week",
+            "relative-type-0": "this week",
+            "relative-type-1": "next week",
             "relativeTime-type-future": {
               "relativeTimePattern-count-one": "om {0} sapaatip-akunnera",
               "relativeTimePattern-count-other": "om {0} sapaatip-akunnera"
@@ -179,12 +179,10 @@
             }
           },
           "day": {
-            "displayName": "ulloq",
-            "relative-type--1": "ippassaq",
-            "relative-type--2": "ippassaani",
-            "relative-type-0": "ullumi",
-            "relative-type-1": "aqagu",
-            "relative-type-2": "aqaguagu",
+            "displayName": "Day",
+            "relative-type--1": "yesterday",
+            "relative-type-0": "today",
+            "relative-type-1": "tomorrow",
             "relativeTime-type-future": {
               "relativeTimePattern-count-one": "om {0} ulloq unnuarlu",
               "relativeTimePattern-count-other": "om {0} ulloq unnuarlu"
@@ -195,12 +193,10 @@
             }
           },
           "day-short": {
-            "displayName": "ulloq",
-            "relative-type--1": "ippassaq",
-            "relative-type--2": "ippassaani",
-            "relative-type-0": "ullumi",
-            "relative-type-1": "aqagu",
-            "relative-type-2": "aqaguagu",
+            "displayName": "Day",
+            "relative-type--1": "yesterday",
+            "relative-type-0": "today",
+            "relative-type-1": "tomorrow",
             "relativeTime-type-future": {
               "relativeTimePattern-count-one": "om {0} ulloq unnuarlu",
               "relativeTimePattern-count-other": "om {0} ulloq unnuarlu"
@@ -211,12 +207,10 @@
             }
           },
           "day-narrow": {
-            "displayName": "ulloq",
-            "relative-type--1": "ippassaq",
-            "relative-type--2": "ippassaani",
-            "relative-type-0": "ullumi",
-            "relative-type-1": "aqagu",
-            "relative-type-2": "aqaguagu",
+            "displayName": "Day",
+            "relative-type--1": "yesterday",
+            "relative-type-0": "today",
+            "relative-type-1": "tomorrow",
             "relativeTime-type-future": {
               "relativeTimePattern-count-one": "om {0} ulloq unnuarlu",
               "relativeTimePattern-count-other": "om {0} ulloq unnuarlu"
@@ -227,118 +221,118 @@
             }
           },
           "weekday": {
-            "displayName": "sapaatip akunnerata ullui"
+            "displayName": "Day of the Week"
           },
           "sun": {
-            "relative-type--1": "sapaat kingulleq sapaatip-akunnera",
-            "relative-type-0": "sapaat manna sapaatip-akunnera",
-            "relative-type-1": "sapaat tulleq sapaatip-akunnera"
+            "relative-type--1": "last Sunday",
+            "relative-type-0": "this Sunday",
+            "relative-type-1": "next Sunday"
           },
           "sun-short": {
-            "relative-type--1": "sapaat kingulleq sapaatip-akunnera",
-            "relative-type-0": "sapaat manna sapaatip-akunnera",
-            "relative-type-1": "sapaat tulleq sapaatip-akunnera"
+            "relative-type--1": "last Sunday",
+            "relative-type-0": "this Sunday",
+            "relative-type-1": "next Sunday"
           },
           "sun-narrow": {
-            "relative-type--1": "sapaat kingulleq sapaatip-akunnera",
-            "relative-type-0": "sapaat manna sapaatip-akunnera",
-            "relative-type-1": "sapaat tulleq sapaatip-akunnera"
+            "relative-type--1": "last Sunday",
+            "relative-type-0": "this Sunday",
+            "relative-type-1": "next Sunday"
           },
           "mon": {
-            "relative-type--1": "ataasinngorneq kingulleq sapaatip-akunnera",
-            "relative-type-0": "ataasinngorneq manna sapaatip-akunnera",
-            "relative-type-1": "ataasinngorneq tulleq sapaatip-akunnera"
+            "relative-type--1": "last Monday",
+            "relative-type-0": "this Monday",
+            "relative-type-1": "next Monday"
           },
           "mon-short": {
-            "relative-type--1": "ataasinngorneq kingulleq sapaatip-akunnera",
-            "relative-type-0": "ataasinngorneq manna sapaatip-akunnera",
-            "relative-type-1": "ataasinngorneq tulleq sapaatip-akunnera"
+            "relative-type--1": "last Monday",
+            "relative-type-0": "this Monday",
+            "relative-type-1": "next Monday"
           },
           "mon-narrow": {
-            "relative-type--1": "ataasinngorneq kingulleq sapaatip-akunnera",
-            "relative-type-0": "ataasinngorneq manna sapaatip-akunnera",
-            "relative-type-1": "ataasinngorneq tulleq sapaatip-akunnera"
+            "relative-type--1": "last Monday",
+            "relative-type-0": "this Monday",
+            "relative-type-1": "next Monday"
           },
           "tue": {
-            "relative-type--1": "marlunngorneq kingulleq sapaatip-akunnera",
-            "relative-type-0": "marlunngorneq manna sapaatip-akunnera",
-            "relative-type-1": "marlunngorneq tulleq sapaatip-akunnera"
+            "relative-type--1": "last Tuesday",
+            "relative-type-0": "this Tuesday",
+            "relative-type-1": "next Tuesday"
           },
           "tue-short": {
-            "relative-type--1": "marlunngorneq kingulleq sapaatip-akunnera",
-            "relative-type-0": "marlunngorneq manna sapaatip-akunnera",
-            "relative-type-1": "marlunngorneq tulleq sapaatip-akunnera"
+            "relative-type--1": "last Tuesday",
+            "relative-type-0": "this Tuesday",
+            "relative-type-1": "next Tuesday"
           },
           "tue-narrow": {
-            "relative-type--1": "marlunngorneq kingulleq sapaatip-akunnera",
-            "relative-type-0": "marlunngorneq manna sapaatip-akunnera",
-            "relative-type-1": "marlunngorneq tulleq sapaatip-akunnera"
+            "relative-type--1": "last Tuesday",
+            "relative-type-0": "this Tuesday",
+            "relative-type-1": "next Tuesday"
           },
           "wed": {
-            "relative-type--1": "pingasunngorneq kingulleq sapaatip-akunnera",
-            "relative-type-0": "pingasunngorneq manna sapaatip-akunnera",
-            "relative-type-1": "pingasunngorneq tulleq sapaatip-akunnera"
+            "relative-type--1": "last Wednesday",
+            "relative-type-0": "this Wednesday",
+            "relative-type-1": "next Wednesday"
           },
           "wed-short": {
-            "relative-type--1": "pingasunngorneq kingulleq sapaatip-akunnera",
-            "relative-type-0": "pingasunngorneq manna sapaatip-akunnera",
-            "relative-type-1": "pingasunngorneq tulleq sapaatip-akunnera"
+            "relative-type--1": "last Wednesday",
+            "relative-type-0": "this Wednesday",
+            "relative-type-1": "next Wednesday"
           },
           "wed-narrow": {
-            "relative-type--1": "pingasunngorneq kingulleq sapaatip-akunnera",
-            "relative-type-0": "pingasunngorneq manna sapaatip-akunnera",
-            "relative-type-1": "pingasunngorneq tulleq sapaatip-akunnera"
+            "relative-type--1": "last Wednesday",
+            "relative-type-0": "this Wednesday",
+            "relative-type-1": "next Wednesday"
           },
           "thu": {
-            "relative-type--1": "sisamanngorneq kingulleq sapaatip-akunnera",
-            "relative-type-0": "sisamanngorneq manna sapaatip-akunnera",
-            "relative-type-1": "sisamanngorneq tulleq sapaatip-akunnera"
+            "relative-type--1": "last Thursday",
+            "relative-type-0": "this Thursday",
+            "relative-type-1": "next Thursday"
           },
           "thu-short": {
-            "relative-type--1": "sisamanngorneq kingulleq sapaatip-akunnera",
-            "relative-type-0": "sisamanngorneq manna sapaatip-akunnera",
-            "relative-type-1": "sisamanngorneq tulleq sapaatip-akunnera"
+            "relative-type--1": "last Thursday",
+            "relative-type-0": "this Thursday",
+            "relative-type-1": "next Thursday"
           },
           "thu-narrow": {
-            "relative-type--1": "sisamanngorneq kingulleq sapaatip-akunnera",
-            "relative-type-0": "sisamanngorneq manna sapaatip-akunnera",
-            "relative-type-1": "sisamanngorneq tulleq sapaatip-akunnera"
+            "relative-type--1": "last Thursday",
+            "relative-type-0": "this Thursday",
+            "relative-type-1": "next Thursday"
           },
           "fri": {
-            "relative-type--1": "tallimanngorneq kingulleq sapaatip-akunnera",
-            "relative-type-0": "tallimanngorneq manna sapaatip-akunnera",
-            "relative-type-1": "tallimanngorneq tulleq sapaatip-akunnera"
+            "relative-type--1": "last Friday",
+            "relative-type-0": "this Friday",
+            "relative-type-1": "next Friday"
           },
           "fri-short": {
-            "relative-type--1": "tallimanngorneq kingulleq sapaatip-akunnera",
-            "relative-type-0": "tallimanngorneq manna sapaatip-akunnera",
-            "relative-type-1": "tallimanngorneq tulleq sapaatip-akunnera"
+            "relative-type--1": "last Friday",
+            "relative-type-0": "this Friday",
+            "relative-type-1": "next Friday"
           },
           "fri-narrow": {
-            "relative-type--1": "tallimanngorneq kingulleq sapaatip-akunnera",
-            "relative-type-0": "tallimanngorneq manna sapaatip-akunnera",
-            "relative-type-1": "tallimanngorneq tulleq sapaatip-akunnera"
+            "relative-type--1": "last Friday",
+            "relative-type-0": "this Friday",
+            "relative-type-1": "next Friday"
           },
           "sat": {
-            "relative-type--1": "arfininngorneq kingulleq sapaatip-akunnera",
-            "relative-type-0": "arfininngorneq manna sapaatip-akunnera",
-            "relative-type-1": "arfininngorneq tulleq sapaatip-akunnera"
+            "relative-type--1": "last Saturday",
+            "relative-type-0": "this Saturday",
+            "relative-type-1": "next Saturday"
           },
           "sat-short": {
-            "relative-type--1": "arfininngorneq kingulleq sapaatip-akunnera",
-            "relative-type-0": "arfininngorneq manna sapaatip-akunnera",
-            "relative-type-1": "arfininngorneq tulleq sapaatip-akunnera"
+            "relative-type--1": "last Saturday",
+            "relative-type-0": "this Saturday",
+            "relative-type-1": "next Saturday"
           },
           "sat-narrow": {
-            "relative-type--1": "arfininngorneq kingulleq sapaatip-akunnera",
-            "relative-type-0": "arfininngorneq manna sapaatip-akunnera",
-            "relative-type-1": "arfininngorneq tulleq sapaatip-akunnera"
+            "relative-type--1": "last Saturday",
+            "relative-type-0": "this Saturday",
+            "relative-type-1": "next Saturday"
           },
           "dayperiod": {
-            "displayName": "piffissaq ulloq"
+            "displayName": "Dayperiod"
           },
           "hour": {
-            "displayName": "nalunaaquttap-akunnera",
+            "displayName": "Hour",
             "relativeTime-type-future": {
               "relativeTimePattern-count-one": "om {0} nalunaaquttap-akunnera",
               "relativeTimePattern-count-other": "om {0} nalunaaquttap-akunnera"
@@ -349,7 +343,7 @@
             }
           },
           "hour-short": {
-            "displayName": "nalunaaquttap-akunnera",
+            "displayName": "Hour",
             "relativeTime-type-future": {
               "relativeTimePattern-count-one": "om {0} nalunaaquttap-akunnera",
               "relativeTimePattern-count-other": "om {0} nalunaaquttap-akunnera"
@@ -360,7 +354,7 @@
             }
           },
           "hour-narrow": {
-            "displayName": "nalunaaquttap-akunnera",
+            "displayName": "Hour",
             "relativeTime-type-future": {
               "relativeTimePattern-count-one": "om {0} nalunaaquttap-akunnera",
               "relativeTimePattern-count-other": "om {0} nalunaaquttap-akunnera"
@@ -371,7 +365,7 @@
             }
           },
           "minute": {
-            "displayName": "minutsi",
+            "displayName": "Minute",
             "relativeTime-type-future": {
               "relativeTimePattern-count-one": "om {0} minutsi",
               "relativeTimePattern-count-other": "om {0} minutsi"
@@ -382,7 +376,7 @@
             }
           },
           "minute-short": {
-            "displayName": "minutsi",
+            "displayName": "Minute",
             "relativeTime-type-future": {
               "relativeTimePattern-count-one": "om {0} minutsi",
               "relativeTimePattern-count-other": "om {0} minutsi"
@@ -393,7 +387,7 @@
             }
           },
           "minute-narrow": {
-            "displayName": "minutsi",
+            "displayName": "Minute",
             "relativeTime-type-future": {
               "relativeTimePattern-count-one": "om {0} minutsi",
               "relativeTimePattern-count-other": "om {0} minutsi"
@@ -404,7 +398,7 @@
             }
           },
           "second": {
-            "displayName": "sekundi",
+            "displayName": "Second",
             "relative-type-0": "now",
             "relativeTime-type-future": {
               "relativeTimePattern-count-one": "om {0} sekundi",
@@ -416,7 +410,7 @@
             }
           },
           "second-short": {
-            "displayName": "sekundi",
+            "displayName": "Second",
             "relative-type-0": "now",
             "relativeTime-type-future": {
               "relativeTimePattern-count-one": "om {0} sekundi",
@@ -428,7 +422,7 @@
             }
           },
           "second-narrow": {
-            "displayName": "sekundi",
+            "displayName": "Second",
             "relative-type-0": "now",
             "relativeTime-type-future": {
               "relativeTimePattern-count-one": "om {0} sekundi",
@@ -440,7 +434,7 @@
             }
           },
           "zone": {
-            "displayName": "nalunaaqutaqaqatigiissut"
+            "displayName": "Zone"
           }
         }
       }

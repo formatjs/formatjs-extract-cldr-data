@@ -3,11 +3,11 @@
     "sv-FI": {
       "identity": {
         "version": {
-          "_cldrVersion": "26",
-          "_number": "$Revision: 10819 $"
+          "_cldrVersion": "27.0.1",
+          "_number": "$Revision: 11181 $"
         },
         "generation": {
-          "_date": "$Date: 2014-08-14 22:53:08 -0500 (Thu, 14 Aug 2014) $"
+          "_date": "$Date: 2015-02-11 13:14:59 -0600 (Wed, 11 Feb 2015) $"
         },
         "language": "sv",
         "territory": "FI"
@@ -15,10 +15,10 @@
       "dates": {
         "fields": {
           "era": {
-            "displayName": "era"
+            "displayName": "Era"
           },
           "year": {
-            "displayName": "år",
+            "displayName": "År",
             "relative-type--1": "i fjol",
             "relative-type-0": "i år",
             "relative-type-1": "nästa år",
@@ -102,7 +102,7 @@
             }
           },
           "month": {
-            "displayName": "månad",
+            "displayName": "Månad",
             "relative-type--1": "förra månaden",
             "relative-type-0": "denna månad",
             "relative-type-1": "nästa månad",
@@ -144,7 +144,7 @@
             }
           },
           "week": {
-            "displayName": "vecka",
+            "displayName": "Vecka",
             "relative-type--1": "förra veckan",
             "relative-type-0": "denna vecka",
             "relative-type-1": "nästa vecka",
@@ -186,7 +186,7 @@
             }
           },
           "day": {
-            "displayName": "dag",
+            "displayName": "Dag",
             "relative-type--1": "i går",
             "relative-type--2": "i förrgår",
             "relative-type-0": "i dag",
@@ -234,7 +234,7 @@
             }
           },
           "weekday": {
-            "displayName": "veckodag"
+            "displayName": "Veckodag"
           },
           "sun": {
             "relative-type--1": "söndag förra veckan",
@@ -342,7 +342,7 @@
             "relative-type-1": "nästa lör."
           },
           "dayperiod": {
-            "displayName": "dagsperiod"
+            "displayName": "fm/em"
           },
           "hour": {
             "displayName": "Timme",
@@ -378,7 +378,7 @@
             }
           },
           "minute": {
-            "displayName": "minut",
+            "displayName": "Minut",
             "relativeTime-type-future": {
               "relativeTimePattern-count-one": "om {0} minut",
               "relativeTimePattern-count-other": "om {0} minuter"
@@ -411,7 +411,7 @@
             }
           },
           "second": {
-            "displayName": "sekund",
+            "displayName": "Sekund",
             "relative-type-0": "nu",
             "relativeTime-type-future": {
               "relativeTimePattern-count-one": "om {0} sekund",
@@ -447,7 +447,7 @@
             }
           },
           "zone": {
-            "displayName": "tidszon"
+            "displayName": "Tidszon"
           }
         }
       }

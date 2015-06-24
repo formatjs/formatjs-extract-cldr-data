@@ -3,11 +3,11 @@
     "es": {
       "identity": {
         "version": {
-          "_cldrVersion": "26",
-          "_number": "$Revision: 10809 $"
+          "_cldrVersion": "27.0.1",
+          "_number": "$Revision: 11321 $"
         },
         "generation": {
-          "_date": "$Date: 2014-08-14 15:10:07 -0500 (Thu, 14 Aug 2014) $"
+          "_date": "$Date: 2015-02-26 14:20:05 -0600 (Thu, 26 Feb 2015) $"
         },
         "language": "es"
       },
@@ -187,7 +187,7 @@
           "day": {
             "displayName": "Día",
             "relative-type--1": "ayer",
-            "relative-type--2": "antes de ayer",
+            "relative-type--2": "anteayer",
             "relative-type-0": "hoy",
             "relative-type-1": "mañana",
             "relative-type-2": "pasado mañana",
@@ -203,7 +203,7 @@
           "day-short": {
             "displayName": "d",
             "relative-type--1": "ayer",
-            "relative-type--2": "antes de ayer",
+            "relative-type--2": "anteayer",
             "relative-type-0": "hoy",
             "relative-type-1": "mañana",
             "relative-type-2": "pasado mañana",
@@ -219,7 +219,7 @@
           "day-narrow": {
             "displayName": "d",
             "relative-type--1": "ayer",
-            "relative-type--2": "antes de ayer",
+            "relative-type--2": "anteayer",
             "relative-type-0": "hoy",
             "relative-type-1": "mañana",
             "relative-type-2": "pasado mañana",

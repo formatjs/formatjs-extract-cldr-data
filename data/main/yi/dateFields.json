@@ -3,7 +3,7 @@
     "yi": {
       "identity": {
         "version": {
-          "_cldrVersion": "26",
+          "_cldrVersion": "27.0.1",
           "_number": "$Revision: 10741 $"
         },
         "generation": {
@@ -17,7 +17,7 @@
             "displayName": "Era"
           },
           "year": {
-            "displayName": "יאָהר",
+            "displayName": "Year",
             "relative-type--1": "פֿאַראַיאָר",
             "relative-type-0": "הײַ יאָר",
             "relative-type-1": "איבער א יאָר",
@@ -95,7 +95,7 @@
             }
           },
           "month": {
-            "displayName": "מאנאַט",
+            "displayName": "Month",
             "relative-type--1": "פֿאַרגאנגענעם חודש",
             "relative-type-0": "דעם חודש",
             "relative-type-1": "קומענדיקן חודש",
@@ -173,9 +173,9 @@
             }
           },
           "day": {
-            "displayName": "טאג",
+            "displayName": "Day",
             "relative-type--1": "נעכטן",
-            "relative-type-0": "היינט",
+            "relative-type-0": "today",
             "relative-type-1": "מארגן",
             "relativeTime-type-future": {
               "relativeTimePattern-count-one": "אין {0} טאָג אַרום",
@@ -188,7 +188,7 @@
           "day-short": {
             "displayName": "טאָג",
             "relative-type--1": "נעכטן",
-            "relative-type-0": "היינט",
+            "relative-type-0": "today",
             "relative-type-1": "מארגן",
             "relativeTime-type-future": {
               "relativeTimePattern-count-one": "אין {0} טעג אַרום",
@@ -201,7 +201,7 @@
           "day-narrow": {
             "displayName": "טאָג",
             "relative-type--1": "נעכטן",
-            "relative-type-0": "היינט",
+            "relative-type-0": "today",
             "relative-type-1": "מארגן",
             "relativeTime-type-future": {
               "relativeTimePattern-count-one": "אין {0} טעג אַרום",

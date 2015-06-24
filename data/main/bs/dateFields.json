@@ -3,11 +3,11 @@
     "bs": {
       "identity": {
         "version": {
-          "_cldrVersion": "26",
-          "_number": "$Revision: 10809 $"
+          "_cldrVersion": "27.0.1",
+          "_number": "$Revision: 11346 $"
         },
         "generation": {
-          "_date": "$Date: 2014-08-14 15:10:07 -0500 (Thu, 14 Aug 2014) $"
+          "_date": "$Date: 2015-03-05 00:47:17 -0600 (Thu, 05 Mar 2015) $"
         },
         "language": "bs"
       },
@@ -453,7 +453,7 @@
           },
           "second": {
             "displayName": "sekund",
-            "relative-type-0": "sada",
+            "relative-type-0": "now",
             "relativeTime-type-future": {
               "relativeTimePattern-count-one": "za {0} sekundu",
               "relativeTimePattern-count-few": "za {0} sekunde",
@@ -467,7 +467,7 @@
           },
           "second-short": {
             "displayName": "sek.",
-            "relative-type-0": "sada",
+            "relative-type-0": "now",
             "relativeTime-type-future": {
               "relativeTimePattern-count-one": "za {0} sek.",
               "relativeTimePattern-count-few": "za {0} sek.",
@@ -481,7 +481,7 @@
           },
           "second-narrow": {
             "displayName": "s",
-            "relative-type-0": "sada",
+            "relative-type-0": "now",
             "relativeTime-type-future": {
               "relativeTimePattern-count-one": "za {0} sek.",
               "relativeTimePattern-count-few": "za {0} sek.",

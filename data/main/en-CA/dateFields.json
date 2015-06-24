@@ -3,14 +3,14 @@
     "en-CA": {
       "identity": {
         "version": {
-          "_cldrVersion": "26",
-          "_number": "$Revision: 10819 $"
+          "_cldrVersion": "27.0.1",
+          "_number": "$Revision: 11416 $"
         },
         "generation": {
-          "_date": "$Date: 2014-08-14 22:53:08 -0500 (Thu, 14 Aug 2014) $"
+          "_date": "$Date: 2015-03-16 12:30:30 -0500 (Mon, 16 Mar 2015) $"
         },
         "language": "en",
-        "territory": "CA"
+        "territory": "001"
       },
       "dates": {
         "fields": {
@@ -336,7 +336,8 @@
             "relative-type-1": "next Sa"
           },
           "dayperiod": {
-            "displayName": "AM/PM"
+            "displayName": "AM/PM",
+            "displayName-alt-variant": "am/pm"
           },
           "hour": {
             "displayName": "Hour",

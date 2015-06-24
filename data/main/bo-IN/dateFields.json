@@ -3,7 +3,7 @@
     "bo-IN": {
       "identity": {
         "version": {
-          "_cldrVersion": "26",
+          "_cldrVersion": "27.0.1",
           "_number": "$Revision: 10669 $"
         },
         "generation": {
@@ -15,7 +15,7 @@
       "dates": {
         "fields": {
           "era": {
-            "displayName": "ལོ་རིམ།"
+            "displayName": "Era"
           },
           "year": {
             "displayName": "ལོ།",
@@ -126,7 +126,7 @@
             }
           },
           "week": {
-            "displayName": "གཟའ་འཁོར།",
+            "displayName": "Week",
             "relative-type--1": "last week",
             "relative-type-0": "this week",
             "relative-type-1": "next week",
@@ -138,7 +138,7 @@
             }
           },
           "week-short": {
-            "displayName": "གཟའ་འཁོར།",
+            "displayName": "Week",
             "relative-type--1": "last week",
             "relative-type-0": "this week",
             "relative-type-1": "next week",
@@ -150,7 +150,7 @@
             }
           },
           "week-narrow": {
-            "displayName": "གཟའ་འཁོར།",
+            "displayName": "Week",
             "relative-type--1": "last week",
             "relative-type-0": "this week",
             "relative-type-1": "next week",
@@ -204,7 +204,7 @@
             }
           },
           "weekday": {
-            "displayName": "གཟའ་འཁོར་གཅིག"
+            "displayName": "Day of the Week"
           },
           "sun": {
             "relative-type--1": "last Sunday",
@@ -312,7 +312,7 @@
             "relative-type-1": "next Saturday"
           },
           "dayperiod": {
-            "displayName": "སྔ་དྲོ། ཕྱི་དྲོ།"
+            "displayName": "Dayperiod"
           },
           "hour": {
             "displayName": "ཆུ་ཙོ་",

@@ -3,11 +3,11 @@
     "es-MX": {
       "identity": {
         "version": {
-          "_cldrVersion": "26",
-          "_number": "$Revision: 10819 $"
+          "_cldrVersion": "27.0.1",
+          "_number": "$Revision: 11323 $"
         },
         "generation": {
-          "_date": "$Date: 2014-08-14 22:53:08 -0500 (Thu, 14 Aug 2014) $"
+          "_date": "$Date: 2015-02-26 15:25:28 -0600 (Thu, 26 Feb 2015) $"
         },
         "language": "es",
         "territory": "419"
@@ -23,8 +23,8 @@
             "relative-type-0": "este año",
             "relative-type-1": "el año próximo",
             "relativeTime-type-future": {
-              "relativeTimePattern-count-one": "En {0} año",
-              "relativeTimePattern-count-other": "En {0} años"
+              "relativeTimePattern-count-one": "dentro de {0} año",
+              "relativeTimePattern-count-other": "dentro de {0} años"
             },
             "relativeTime-type-past": {
               "relativeTimePattern-count-one": "hace {0} año",
@@ -149,8 +149,8 @@
             "relative-type-0": "esta semana",
             "relative-type-1": "la semana próxima",
             "relativeTime-type-future": {
-              "relativeTimePattern-count-one": "En {0} semana",
-              "relativeTimePattern-count-other": "En {0} semanas"
+              "relativeTimePattern-count-one": "dentro de {0} semana",
+              "relativeTimePattern-count-other": "dentro de {0} semanas"
             },
             "relativeTime-type-past": {
               "relativeTimePattern-count-one": "hace {0} semana",
@@ -188,13 +188,13 @@
           "day": {
             "displayName": "Día",
             "relative-type--1": "ayer",
-            "relative-type--2": "antes de ayer",
+            "relative-type--2": "antier",
             "relative-type-0": "hoy",
             "relative-type-1": "mañana",
             "relative-type-2": "pasado mañana",
             "relativeTime-type-future": {
-              "relativeTimePattern-count-one": "En {0} día",
-              "relativeTimePattern-count-other": "En {0} días"
+              "relativeTimePattern-count-one": "dentro de {0} día",
+              "relativeTimePattern-count-other": "dentro de {0} días"
             },
             "relativeTime-type-past": {
               "relativeTimePattern-count-one": "hace {0} día",
@@ -204,7 +204,7 @@
           "day-short": {
             "displayName": "d",
             "relative-type--1": "ayer",
-            "relative-type--2": "antes de ayer",
+            "relative-type--2": "antier",
             "relative-type-0": "hoy",
             "relative-type-1": "mañana",
             "relative-type-2": "pasado mañana",
@@ -220,7 +220,7 @@
           "day-narrow": {
             "displayName": "d",
             "relative-type--1": "ayer",
-            "relative-type--2": "antes de ayer",
+            "relative-type--2": "antier",
             "relative-type-0": "hoy",
             "relative-type-1": "mañana",
             "relative-type-2": "pasado mañana",
@@ -347,8 +347,8 @@
           "hour": {
             "displayName": "Hora",
             "relativeTime-type-future": {
-              "relativeTimePattern-count-one": "En {0} hora",
-              "relativeTimePattern-count-other": "En {0} horas"
+              "relativeTimePattern-count-one": "dentro de {0} hora",
+              "relativeTimePattern-count-other": "dentro de {0} horas"
             },
             "relativeTime-type-past": {
               "relativeTimePattern-count-one": "hace {0} hora",
@@ -380,8 +380,8 @@
           "minute": {
             "displayName": "Minuto",
             "relativeTime-type-future": {
-              "relativeTimePattern-count-one": "En {0} minuto",
-              "relativeTimePattern-count-other": "En {0} minutos"
+              "relativeTimePattern-count-one": "dentro de {0} minuto",
+              "relativeTimePattern-count-other": "dentro de {0} minutos"
             },
             "relativeTime-type-past": {
               "relativeTimePattern-count-one": "hace {0} minuto",
@@ -414,8 +414,8 @@
             "displayName": "Segundo",
             "relative-type-0": "ahora",
             "relativeTime-type-future": {
-              "relativeTimePattern-count-one": "En {0} segundo",
-              "relativeTimePattern-count-other": "En {0} segundos"
+              "relativeTimePattern-count-one": "dentro de {0} segundo",
+              "relativeTimePattern-count-other": "dentro de {0} segundos"
             },
             "relativeTime-type-past": {
               "relativeTimePattern-count-one": "hace {0} segundo",

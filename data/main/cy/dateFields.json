@@ -3,11 +3,11 @@
     "cy": {
       "identity": {
         "version": {
-          "_cldrVersion": "26",
-          "_number": "$Revision: 10780 $"
+          "_cldrVersion": "27.0.1",
+          "_number": "$Revision: 11093 $"
         },
         "generation": {
-          "_date": "$Date: 2014-08-13 03:37:28 -0500 (Wed, 13 Aug 2014) $"
+          "_date": "$Date: 2015-01-02 21:36:02 -0600 (Fri, 02 Jan 2015) $"
         },
         "language": "cy"
       },

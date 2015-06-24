@@ -3,11 +3,11 @@
     "ur": {
       "identity": {
         "version": {
-          "_cldrVersion": "26",
-          "_number": "$Revision: 10809 $"
+          "_cldrVersion": "27.0.1",
+          "_number": "$Revision: 11294 $"
         },
         "generation": {
-          "_date": "$Date: 2014-08-14 15:10:07 -0500 (Thu, 14 Aug 2014) $"
+          "_date": "$Date: 2015-02-23 16:50:24 -0600 (Mon, 23 Feb 2015) $"
         },
         "language": "ur"
       },
@@ -96,8 +96,8 @@
               "relativeTimePattern-count-other": "{0} سہ ماہی میں"
             },
             "relativeTime-type-past": {
-              "relativeTimePattern-count-one": "-{0}سہ ماہی",
-              "relativeTimePattern-count-other": "-{0}سہ ماہی"
+              "relativeTimePattern-count-one": "{0} سہ ماہی پہلے",
+              "relativeTimePattern-count-other": "{0} سہ ماہی پہلے"
             }
           },
           "month": {
@@ -129,7 +129,7 @@
             }
           },
           "month-narrow": {
-            "displayName": "مہ",
+            "displayName": "ماہ",
             "relative-type--1": "پچھلے مہینہ",
             "relative-type-0": "اس مہینہ",
             "relative-type-1": "اگلے مہینہ",
@@ -138,8 +138,8 @@
               "relativeTimePattern-count-other": "+{0} ماہ میں"
             },
             "relativeTime-type-past": {
-              "relativeTimePattern-count-one": "-{0} ماہ میں",
-              "relativeTimePattern-count-other": "-{0} ماہ میں"
+              "relativeTimePattern-count-one": "{0} ماہ پہلے",
+              "relativeTimePattern-count-other": "{0} ماہ پہلے"
             }
           },
           "week": {
@@ -180,8 +180,8 @@
               "relativeTimePattern-count-other": "{0} ہفتے میں"
             },
             "relativeTime-type-past": {
-              "relativeTimePattern-count-one": "-{0} ہفتہ",
-              "relativeTimePattern-count-other": "-{0} ہفتے"
+              "relativeTimePattern-count-one": "{0} ہفتہ پہلے",
+              "relativeTimePattern-count-other": "{0} ہفتے پہلے"
             }
           },
           "day": {
@@ -228,8 +228,8 @@
               "relativeTimePattern-count-other": "{0} دنوں میں"
             },
             "relativeTime-type-past": {
-              "relativeTimePattern-count-one": "-{0} دن",
-              "relativeTimePattern-count-other": "-{0} دن"
+              "relativeTimePattern-count-one": "{0} دن پہلے",
+              "relativeTimePattern-count-other": "{0} دن پہلے"
             }
           },
           "weekday": {
@@ -251,9 +251,9 @@
             "relative-type-1": "اگلے اتوار"
           },
           "mon": {
-            "relative-type--1": "گزشتہ پیر",
-            "relative-type-0": "یہ پیر",
-            "relative-type-1": "اگلے پیر"
+            "relative-type--1": "گزشتہ سوموار",
+            "relative-type-0": "اس سوموار",
+            "relative-type-1": "اگلے سوموار"
           },
           "mon-short": {
             "relative-type--1": "گزشتہ سوموار",
@@ -372,8 +372,8 @@
               "relativeTimePattern-count-other": "{0} گھنٹوں میں"
             },
             "relativeTime-type-past": {
-              "relativeTimePattern-count-one": "-{0} گھنٹہ",
-              "relativeTimePattern-count-other": "-{0} گھنٹے"
+              "relativeTimePattern-count-one": "{0} گھنٹہ پہلے",
+              "relativeTimePattern-count-other": "{0} گھنٹے پہلے"
             }
           },
           "minute": {
@@ -441,8 +441,8 @@
               "relativeTimePattern-count-other": "{0} سیکنڈ میں"
             },
             "relativeTime-type-past": {
-              "relativeTimePattern-count-one": "-{0} سیکنڈ",
-              "relativeTimePattern-count-other": "-{0} سیکنڈ"
+              "relativeTimePattern-count-one": "{0} سیکنڈ پہلے",
+              "relativeTimePattern-count-other": "{0} سیکنڈ پہلے"
             }
           },
           "zone": {

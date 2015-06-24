@@ -3,7 +3,7 @@
     "es-PH": {
       "identity": {
         "version": {
-          "_cldrVersion": "26",
+          "_cldrVersion": "27.0.1",
           "_number": "$Revision: 10669 $"
         },
         "generation": {
@@ -188,7 +188,7 @@
           "day": {
             "displayName": "Día",
             "relative-type--1": "ayer",
-            "relative-type--2": "antes de ayer",
+            "relative-type--2": "anteayer",
             "relative-type-0": "hoy",
             "relative-type-1": "mañana",
             "relative-type-2": "pasado mañana",
@@ -204,7 +204,7 @@
           "day-short": {
             "displayName": "d",
             "relative-type--1": "ayer",
-            "relative-type--2": "antes de ayer",
+            "relative-type--2": "anteayer",
             "relative-type-0": "hoy",
             "relative-type-1": "mañana",
             "relative-type-2": "pasado mañana",
@@ -220,7 +220,7 @@
           "day-narrow": {
             "displayName": "d",
             "relative-type--1": "ayer",
-            "relative-type--2": "antes de ayer",
+            "relative-type--2": "anteayer",
             "relative-type-0": "hoy",
             "relative-type-1": "mañana",
             "relative-type-2": "pasado mañana",

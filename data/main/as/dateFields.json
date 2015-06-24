@@ -3,7 +3,7 @@
     "as": {
       "identity": {
         "version": {
-          "_cldrVersion": "26",
+          "_cldrVersion": "27.0.1",
           "_number": "$Revision: 10739 $"
         },
         "generation": {
@@ -163,7 +163,6 @@
           "day": {
             "displayName": "দিন",
             "relative-type--1": "কালি",
-            "relative-type--2": "পৰহি",
             "relative-type-0": "today",
             "relative-type-1": "কাইলৈ",
             "relative-type-2": "পৰহিলৈ",
@@ -177,7 +176,6 @@
           "day-short": {
             "displayName": "দিন",
             "relative-type--1": "কালি",
-            "relative-type--2": "পৰহি",
             "relative-type-0": "today",
             "relative-type-1": "কাইলৈ",
             "relative-type-2": "পৰহিলৈ",
@@ -191,7 +189,6 @@
           "day-narrow": {
             "displayName": "দিন",
             "relative-type--1": "কালি",
-            "relative-type--2": "পৰহি",
             "relative-type-0": "today",
             "relative-type-1": "কাইলৈ",
             "relative-type-2": "পৰহিলৈ",

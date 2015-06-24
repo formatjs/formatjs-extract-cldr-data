@@ -3,11 +3,11 @@
     "en-001": {
       "identity": {
         "version": {
-          "_cldrVersion": "26",
-          "_number": "$Revision: 10669 $"
+          "_cldrVersion": "27.0.1",
+          "_number": "$Revision: 11290 $"
         },
         "generation": {
-          "_date": "$Date: 2014-07-23 16:10:33 -0500 (Wed, 23 Jul 2014) $"
+          "_date": "$Date: 2015-02-22 04:15:45 -0600 (Sun, 22 Feb 2015) $"
         },
         "language": "en",
         "territory": "001"
@@ -336,7 +336,8 @@
             "relative-type-1": "next Sa"
           },
           "dayperiod": {
-            "displayName": "AM/PM"
+            "displayName": "AM/PM",
+            "displayName-alt-variant": "am/pm"
           },
           "hour": {
             "displayName": "Hour",

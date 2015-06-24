@@ -3,7 +3,7 @@
     "ee-TG": {
       "identity": {
         "version": {
-          "_cldrVersion": "26",
+          "_cldrVersion": "27.0.1",
           "_number": "$Revision: 10669 $"
         },
         "generation": {
@@ -60,7 +60,7 @@
             }
           },
           "quarter": {
-            "displayName": "kɔta",
+            "displayName": "Quarter",
             "relative-type--1": "last quarter",
             "relative-type-0": "this quarter",
             "relative-type-1": "next quarter",
@@ -72,7 +72,7 @@
             }
           },
           "quarter-short": {
-            "displayName": "kɔta",
+            "displayName": "Quarter",
             "relative-type--1": "last quarter",
             "relative-type-0": "this quarter",
             "relative-type-1": "next quarter",
@@ -84,7 +84,7 @@
             }
           },
           "quarter-narrow": {
-            "displayName": "kɔta",
+            "displayName": "Quarter",
             "relative-type--1": "last quarter",
             "relative-type-0": "this quarter",
             "relative-type-1": "next quarter",
@@ -231,19 +231,19 @@
             "displayName": "kɔsiɖa me ŋkeke"
           },
           "sun": {
-            "relative-type--1": "kɔsiɖa si va yi",
-            "relative-type-0": "kɔsiɖa sia",
-            "relative-type-1": "kɔsiɖa si gbɔ na"
+            "relative-type--1": "kɔsiɖagbe si va yi",
+            "relative-type-0": "kɔsiɖa sia gbe",
+            "relative-type-1": "kɔsiɖagbe si gbɔ na"
           },
           "sun-short": {
-            "relative-type--1": "kɔsiɖa si va yi",
-            "relative-type-0": "kɔsiɖa sia",
-            "relative-type-1": "kɔsiɖa si gbɔ na"
+            "relative-type--1": "kɔsiɖagbe si va yi",
+            "relative-type-0": "kɔsiɖa sia gbe",
+            "relative-type-1": "kɔsiɖagbe si gbɔ na"
           },
           "sun-narrow": {
-            "relative-type--1": "kɔsiɖa si va yi",
-            "relative-type-0": "kɔsiɖa sia",
-            "relative-type-1": "kɔsiɖa si gbɔ na"
+            "relative-type--1": "kɔsiɖagbe si va yi",
+            "relative-type-0": "kɔsiɖa sia gbe",
+            "relative-type-1": "kɔsiɖagbe si gbɔ na"
           },
           "mon": {
             "relative-type--1": "dzoɖa si va yi",

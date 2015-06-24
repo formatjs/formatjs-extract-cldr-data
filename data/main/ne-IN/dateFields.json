@@ -3,11 +3,11 @@
     "ne-IN": {
       "identity": {
         "version": {
-          "_cldrVersion": "26",
-          "_number": "$Revision: 10819 $"
+          "_cldrVersion": "27.0.1",
+          "_number": "$Revision: 11172 $"
         },
         "generation": {
-          "_date": "$Date: 2014-08-14 22:53:08 -0500 (Thu, 14 Aug 2014) $"
+          "_date": "$Date: 2015-02-10 17:22:07 -0600 (Tue, 10 Feb 2015) $"
         },
         "language": "ne",
         "territory": "IN"
@@ -15,7 +15,7 @@
       "dates": {
         "fields": {
           "era": {
-            "displayName": "युग"
+            "displayName": "काल"
           },
           "year": {
             "displayName": "वर्ष",
@@ -144,7 +144,7 @@
             }
           },
           "week": {
-            "displayName": "साता",
+            "displayName": "हप्ता",
             "relative-type--1": "गएको हप्ता",
             "relative-type-0": "यो हप्ता",
             "relative-type-1": "आउने हप्ता",
@@ -186,7 +186,7 @@
             }
           },
           "day": {
-            "displayName": "वार",
+            "displayName": "बार",
             "relative-type--1": "हिजो",
             "relative-type--2": "अस्ति",
             "relative-type-0": "आज",
@@ -234,7 +234,7 @@
             }
           },
           "weekday": {
-            "displayName": "हप्ताको वार"
+            "displayName": "हप्ताको बार"
           },
           "sun": {
             "relative-type--1": "गत आईतबार",
@@ -447,7 +447,7 @@
             }
           },
           "zone": {
-            "displayName": "अञ्‍चल"
+            "displayName": "समय क्षेत्र"
           }
         }
       }

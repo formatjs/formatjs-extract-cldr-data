@@ -3,11 +3,11 @@
     "sr-Latn-ME": {
       "identity": {
         "version": {
-          "_cldrVersion": "26",
-          "_number": "$Revision: 10820 $"
+          "_cldrVersion": "27.0.1",
+          "_number": "$Revision: 11324 $"
         },
         "generation": {
-          "_date": "$Date: 2014-08-14 23:26:58 -0500 (Thu, 14 Aug 2014) $"
+          "_date": "$Date: 2015-02-26 16:53:17 -0600 (Thu, 26 Feb 2015) $"
         },
         "language": "sr",
         "script": "Latn",

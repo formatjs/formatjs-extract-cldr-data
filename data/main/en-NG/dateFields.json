@@ -3,7 +3,7 @@
     "en-NG": {
       "identity": {
         "version": {
-          "_cldrVersion": "26",
+          "_cldrVersion": "27.0.1",
           "_number": "$Revision: 10669 $"
         },
         "generation": {
@@ -336,7 +336,8 @@
             "relative-type-1": "next Sa"
           },
           "dayperiod": {
-            "displayName": "AM/PM"
+            "displayName": "AM/PM",
+            "displayName-alt-variant": "am/pm"
           },
           "hour": {
             "displayName": "Hour",

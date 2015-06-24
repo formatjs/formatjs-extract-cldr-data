@@ -3,11 +3,11 @@
     "de-CH": {
       "identity": {
         "version": {
-          "_cldrVersion": "26",
-          "_number": "$Revision: 10821 $"
+          "_cldrVersion": "27.0.1",
+          "_number": "$Revision: 11170 $"
         },
         "generation": {
-          "_date": "$Date: 2014-08-14 23:43:52 -0500 (Thu, 14 Aug 2014) $"
+          "_date": "$Date: 2015-02-09 23:12:33 -0600 (Mon, 09 Feb 2015) $"
         },
         "language": "de",
         "territory": "CH"

@@ -3,24 +3,24 @@
     "fo": {
       "identity": {
         "version": {
-          "_cldrVersion": "26",
-          "_number": "$Revision: 10753 $"
+          "_cldrVersion": "27.0.1",
+          "_number": "$Revision: 11227 $"
         },
         "generation": {
-          "_date": "$Date: 2014-08-11 11:10:03 -0500 (Mon, 11 Aug 2014) $"
+          "_date": "$Date: 2015-02-18 08:46:28 -0600 (Wed, 18 Feb 2015) $"
         },
         "language": "fo"
       },
       "dates": {
         "fields": {
           "era": {
-            "displayName": "tímabil"
+            "displayName": "tíðarrokning"
           },
           "year": {
             "displayName": "ár",
-            "relative-type--1": "síðstu ár",
-            "relative-type-0": "hetta ár",
-            "relative-type-1": "næstu ár",
+            "relative-type--1": "í fjør",
+            "relative-type-0": "í ár",
+            "relative-type-1": "næsta ár",
             "relativeTime-type-future": {
               "relativeTimePattern-count-other": "+{0} y"
             },
@@ -30,9 +30,9 @@
           },
           "year-short": {
             "displayName": "ár",
-            "relative-type--1": "síðstu ár",
-            "relative-type-0": "hetta ár",
-            "relative-type-1": "næstu ár",
+            "relative-type--1": "í fjør",
+            "relative-type-0": "í ár",
+            "relative-type-1": "næsta ár",
             "relativeTime-type-future": {
               "relativeTimePattern-count-other": "+{0} y"
             },
@@ -42,9 +42,9 @@
           },
           "year-narrow": {
             "displayName": "ár",
-            "relative-type--1": "síðstu ár",
-            "relative-type-0": "hetta ár",
-            "relative-type-1": "næstu ár",
+            "relative-type--1": "í fjør",
+            "relative-type-0": "í ár",
+            "relative-type-1": "næsta ár",
             "relativeTime-type-future": {
               "relativeTimePattern-count-other": "+{0} y"
             },
@@ -89,10 +89,10 @@
             }
           },
           "month": {
-            "displayName": "mánuður",
-            "relative-type--1": "síðstu mánuður",
-            "relative-type-0": "henda mánuður",
-            "relative-type-1": "næstu mánuður",
+            "displayName": "mánaður",
+            "relative-type--1": "seinasta mánað",
+            "relative-type-0": "henda mánaðin",
+            "relative-type-1": "næsta mánað",
             "relativeTime-type-future": {
               "relativeTimePattern-count-other": "+{0} m"
             },
@@ -101,10 +101,10 @@
             }
           },
           "month-short": {
-            "displayName": "mánuður",
-            "relative-type--1": "síðstu mánuður",
-            "relative-type-0": "henda mánuður",
-            "relative-type-1": "næstu mánuður",
+            "displayName": "mánaður",
+            "relative-type--1": "seinasta mánað",
+            "relative-type-0": "henda mánaðin",
+            "relative-type-1": "næsta mánað",
             "relativeTime-type-future": {
               "relativeTimePattern-count-other": "+{0} m"
             },
@@ -113,10 +113,10 @@
             }
           },
           "month-narrow": {
-            "displayName": "mánuður",
-            "relative-type--1": "síðstu mánuður",
-            "relative-type-0": "henda mánuður",
-            "relative-type-1": "næstu mánuður",
+            "displayName": "mánaður",
+            "relative-type--1": "seinasta mánað",
+            "relative-type-0": "henda mánaðin",
+            "relative-type-1": "næsta mánað",
             "relativeTime-type-future": {
               "relativeTimePattern-count-other": "+{0} m"
             },
@@ -126,9 +126,9 @@
           },
           "week": {
             "displayName": "vika",
-            "relative-type--1": "síðstu vika",
-            "relative-type-0": "henda viku",
-            "relative-type-1": "næstu vika",
+            "relative-type--1": "seinastu viku",
+            "relative-type-0": "hesu viku",
+            "relative-type-1": "næstu viku",
             "relativeTime-type-future": {
               "relativeTimePattern-count-other": "+{0} w"
             },
@@ -138,9 +138,9 @@
           },
           "week-short": {
             "displayName": "vika",
-            "relative-type--1": "síðstu vika",
-            "relative-type-0": "henda viku",
-            "relative-type-1": "næstu vika",
+            "relative-type--1": "seinastu viku",
+            "relative-type-0": "hesu viku",
+            "relative-type-1": "næstu viku",
             "relativeTime-type-future": {
               "relativeTimePattern-count-other": "+{0} w"
             },
@@ -150,9 +150,9 @@
           },
           "week-narrow": {
             "displayName": "vika",
-            "relative-type--1": "síðstu vika",
-            "relative-type-0": "henda viku",
-            "relative-type-1": "næstu vika",
+            "relative-type--1": "seinastu viku",
+            "relative-type-0": "hesu viku",
+            "relative-type-1": "næstu viku",
             "relativeTime-type-future": {
               "relativeTimePattern-count-other": "+{0} w"
             },
@@ -162,11 +162,11 @@
           },
           "day": {
             "displayName": "dagur",
-            "relative-type--1": "í gær",
-            "relative-type--2": "í fyrradag",
+            "relative-type--1": "í gjár",
+            "relative-type--2": "fyrradagin",
             "relative-type-0": "í dag",
-            "relative-type-1": "á morgunn",
-            "relative-type-2": "á yfirmorgunn",
+            "relative-type-1": "í morgin",
+            "relative-type-2": "í ovurmorgin",
             "relativeTime-type-future": {
               "relativeTimePattern-count-other": "+{0} d"
             },
@@ -176,11 +176,11 @@
           },
           "day-short": {
             "displayName": "dagur",
-            "relative-type--1": "í gær",
-            "relative-type--2": "í fyrradag",
+            "relative-type--1": "í gjár",
+            "relative-type--2": "fyrradagin",
             "relative-type-0": "í dag",
-            "relative-type-1": "á morgunn",
-            "relative-type-2": "á yfirmorgunn",
+            "relative-type-1": "í morgin",
+            "relative-type-2": "í ovurmorgin",
             "relativeTime-type-future": {
               "relativeTimePattern-count-other": "+{0} d"
             },
@@ -190,11 +190,11 @@
           },
           "day-narrow": {
             "displayName": "dagur",
-            "relative-type--1": "í gær",
-            "relative-type--2": "í fyrradag",
+            "relative-type--1": "í gjár",
+            "relative-type--2": "fyrradagin",
             "relative-type-0": "í dag",
-            "relative-type-1": "á morgunn",
-            "relative-type-2": "á yfirmorgunn",
+            "relative-type-1": "í morgin",
+            "relative-type-2": "í ovurmorgin",
             "relativeTime-type-future": {
               "relativeTimePattern-count-other": "+{0} d"
             },
@@ -203,118 +203,118 @@
             }
           },
           "weekday": {
-            "displayName": "vikudagur"
+            "displayName": "gerandisdagur"
           },
           "sun": {
-            "relative-type--1": "sunnudagu síðstu vika",
-            "relative-type-0": "sunnudagu henda viku",
-            "relative-type-1": "sunnudagu næstu vika"
+            "relative-type--1": "seinasta sunnudag",
+            "relative-type-0": "næsta sunnudag",
+            "relative-type-1": "sunnudagin í næstu viku"
           },
           "sun-short": {
-            "relative-type--1": "sunnudagu síðstu vika",
-            "relative-type-0": "sunnudagu henda viku",
-            "relative-type-1": "sunnudagu næstu vika"
+            "relative-type--1": "seinasta sunnudag",
+            "relative-type-0": "næsta sunnudag",
+            "relative-type-1": "sunnudagin í næstu viku"
           },
           "sun-narrow": {
-            "relative-type--1": "sunnudagu síðstu vika",
-            "relative-type-0": "sunnudagu henda viku",
-            "relative-type-1": "sunnudagu næstu vika"
+            "relative-type--1": "seinasta sunnudag",
+            "relative-type-0": "næsta sunnudag",
+            "relative-type-1": "sunnudagin í næstu viku"
           },
           "mon": {
-            "relative-type--1": "mánadagur síðstu vika",
-            "relative-type-0": "mánadagur henda viku",
-            "relative-type-1": "mánadagur næstu vika"
+            "relative-type--1": "seinasta mánadag",
+            "relative-type-0": "næsta mánadag",
+            "relative-type-1": "mánadagin í næstu viku"
           },
           "mon-short": {
-            "relative-type--1": "mánadagur síðstu vika",
-            "relative-type-0": "mánadagur henda viku",
-            "relative-type-1": "mánadagur næstu vika"
+            "relative-type--1": "seinasta mánadag",
+            "relative-type-0": "næsta mánadag",
+            "relative-type-1": "mánadagin í næstu viku"
           },
           "mon-narrow": {
-            "relative-type--1": "mánadagur síðstu vika",
-            "relative-type-0": "mánadagur henda viku",
-            "relative-type-1": "mánadagur næstu vika"
+            "relative-type--1": "seinasta mánadag",
+            "relative-type-0": "næsta mánadag",
+            "relative-type-1": "mánadagin í næstu viku"
           },
           "tue": {
-            "relative-type--1": "týsdagur síðstu vika",
-            "relative-type-0": "týsdagur henda viku",
-            "relative-type-1": "týsdagur næstu vika"
+            "relative-type--1": "seinasta týsdag",
+            "relative-type-0": "næsta týsdag",
+            "relative-type-1": "týsdagin í næstu viku"
           },
           "tue-short": {
-            "relative-type--1": "týsdagur síðstu vika",
-            "relative-type-0": "týsdagur henda viku",
-            "relative-type-1": "týsdagur næstu vika"
+            "relative-type--1": "seinasta týsdag",
+            "relative-type-0": "næsta týsdag",
+            "relative-type-1": "týsdagin í næstu viku"
           },
           "tue-narrow": {
-            "relative-type--1": "týsdagur síðstu vika",
-            "relative-type-0": "týsdagur henda viku",
-            "relative-type-1": "týsdagur næstu vika"
+            "relative-type--1": "seinasta týsdag",
+            "relative-type-0": "næsta týsdag",
+            "relative-type-1": "týsdagin í næstu viku"
           },
           "wed": {
-            "relative-type--1": "mikudagur síðstu vika",
-            "relative-type-0": "mikudagur henda viku",
-            "relative-type-1": "mikudagur næstu vika"
+            "relative-type--1": "seinasta mikudag",
+            "relative-type-0": "næsta mikudag",
+            "relative-type-1": "mikudagin í næstu viku"
           },
           "wed-short": {
-            "relative-type--1": "mikudagur síðstu vika",
-            "relative-type-0": "mikudagur henda viku",
-            "relative-type-1": "mikudagur næstu vika"
+            "relative-type--1": "seinasta mikudag",
+            "relative-type-0": "næsta mikudag",
+            "relative-type-1": "mikudagin í næstu viku"
           },
           "wed-narrow": {
-            "relative-type--1": "mikudagur síðstu vika",
-            "relative-type-0": "mikudagur henda viku",
-            "relative-type-1": "mikudagur næstu vika"
+            "relative-type--1": "seinasta mikudag",
+            "relative-type-0": "næsta mikudag",
+            "relative-type-1": "mikudagin í næstu viku"
           },
           "thu": {
-            "relative-type--1": "hósdagur síðstu vika",
-            "relative-type-0": "hósdagur henda viku",
-            "relative-type-1": "hósdagur næstu vika"
+            "relative-type--1": "seinasta hósdag",
+            "relative-type-0": "næsta hósdag",
+            "relative-type-1": "hósdagin í næstu viku"
           },
           "thu-short": {
-            "relative-type--1": "hósdagur síðstu vika",
-            "relative-type-0": "hósdagur henda viku",
-            "relative-type-1": "hósdagur næstu vika"
+            "relative-type--1": "seinasta hósdag",
+            "relative-type-0": "næsta hósdag",
+            "relative-type-1": "hósdagin í næstu viku"
           },
           "thu-narrow": {
-            "relative-type--1": "hósdagur síðstu vika",
-            "relative-type-0": "hósdagur henda viku",
-            "relative-type-1": "hósdagur næstu vika"
+            "relative-type--1": "seinasta hósdag",
+            "relative-type-0": "næsta hósdag",
+            "relative-type-1": "hósdagin í næstu viku"
           },
           "fri": {
-            "relative-type--1": "fríggjadagur síðstu vika",
-            "relative-type-0": "fríggjadagur henda viku",
-            "relative-type-1": "fríggjadagur næstu vika"
+            "relative-type--1": "seinasta fríggjadag",
+            "relative-type-0": "næsta fríggjadag",
+            "relative-type-1": "fríggjadagin í næstu viku"
           },
           "fri-short": {
-            "relative-type--1": "fríggjadagur síðstu vika",
-            "relative-type-0": "fríggjadagur henda viku",
-            "relative-type-1": "fríggjadagur næstu vika"
+            "relative-type--1": "seinasta fríggjadag",
+            "relative-type-0": "næsta fríggjadag",
+            "relative-type-1": "fríggjadagin í næstu viku"
           },
           "fri-narrow": {
-            "relative-type--1": "fríggjadagur síðstu vika",
-            "relative-type-0": "fríggjadagur henda viku",
-            "relative-type-1": "fríggjadagur næstu vika"
+            "relative-type--1": "seinasta fríggjadag",
+            "relative-type-0": "næsta fríggjadag",
+            "relative-type-1": "fríggjadagin í næstu viku"
           },
           "sat": {
-            "relative-type--1": "leygardagur síðstu vika",
-            "relative-type-0": "leygardagur henda viku",
-            "relative-type-1": "leygardagur næstu vika"
+            "relative-type--1": "seinasta leygardag",
+            "relative-type-0": "næsta leygardag",
+            "relative-type-1": "leygardagin í næstu viku"
           },
           "sat-short": {
-            "relative-type--1": "leygardagur síðstu vika",
-            "relative-type-0": "leygardagur henda viku",
-            "relative-type-1": "leygardagur næstu vika"
+            "relative-type--1": "seinasta leygardag",
+            "relative-type-0": "næsta leygardag",
+            "relative-type-1": "leygardagin í næstu viku"
           },
           "sat-narrow": {
-            "relative-type--1": "leygardagur síðstu vika",
-            "relative-type-0": "leygardagur henda viku",
-            "relative-type-1": "leygardagur næstu vika"
+            "relative-type--1": "seinasta leygardag",
+            "relative-type-0": "næsta leygardag",
+            "relative-type-1": "leygardagin í næstu viku"
           },
           "dayperiod": {
-            "displayName": "samdøgurperiode"
+            "displayName": "AM/PM"
           },
           "hour": {
-            "displayName": "klukkustund",
+            "displayName": "tími",
             "relativeTime-type-future": {
               "relativeTimePattern-count-other": "+{0} h"
             },
@@ -323,7 +323,7 @@
             }
           },
           "hour-short": {
-            "displayName": "klukkustund",
+            "displayName": "tími",
             "relativeTime-type-future": {
               "relativeTimePattern-count-other": "+{0} h"
             },
@@ -332,7 +332,7 @@
             }
           },
           "hour-narrow": {
-            "displayName": "klukkustund",
+            "displayName": "tími",
             "relativeTime-type-future": {
               "relativeTimePattern-count-other": "+{0} h"
             },
@@ -341,7 +341,7 @@
             }
           },
           "minute": {
-            "displayName": "mínúta",
+            "displayName": "minuttur",
             "relativeTime-type-future": {
               "relativeTimePattern-count-other": "+{0} min"
             },
@@ -350,7 +350,7 @@
             }
           },
           "minute-short": {
-            "displayName": "mínúta",
+            "displayName": "minuttur",
             "relativeTime-type-future": {
               "relativeTimePattern-count-other": "+{0} min"
             },
@@ -359,7 +359,7 @@
             }
           },
           "minute-narrow": {
-            "displayName": "mínúta",
+            "displayName": "minuttur",
             "relativeTime-type-future": {
               "relativeTimePattern-count-other": "+{0} min"
             },
@@ -398,7 +398,7 @@
             }
           },
           "zone": {
-            "displayName": "tímabelti"
+            "displayName": "tíðarøki"
           }
         }
       }

@@ -3,11 +3,11 @@
     "mt": {
       "identity": {
         "version": {
-          "_cldrVersion": "26",
-          "_number": "$Revision: 10822 $"
+          "_cldrVersion": "27.0.1",
+          "_number": "$Revision: 11093 $"
         },
         "generation": {
-          "_date": "$Date: 2014-08-15 11:29:13 -0500 (Fri, 15 Aug 2014) $"
+          "_date": "$Date: 2015-01-02 21:36:02 -0600 (Fri, 02 Jan 2015) $"
         },
         "language": "mt"
       },
@@ -19,7 +19,7 @@
           "year": {
             "displayName": "Sena",
             "relative-type--1": "Is-sena li għaddiet",
-            "relative-type-0": "Din is-sena",
+            "relative-type-0": "this year",
             "relative-type-1": "Is-sena d-dieħla",
             "relativeTime-type-future": {
               "relativeTimePattern-count-other": "+{0} y"
@@ -34,7 +34,7 @@
           "year-short": {
             "displayName": "Sena",
             "relative-type--1": "Is-sena li għaddiet",
-            "relative-type-0": "Din is-sena",
+            "relative-type-0": "this year",
             "relative-type-1": "Is-sena d-dieħla",
             "relativeTime-type-future": {
               "relativeTimePattern-count-other": "+{0} y"
@@ -49,7 +49,7 @@
           "year-narrow": {
             "displayName": "Sena",
             "relative-type--1": "Is-sena li għaddiet",
-            "relative-type-0": "Din is-sena",
+            "relative-type-0": "this year",
             "relative-type-1": "Is-sena d-dieħla",
             "relativeTime-type-future": {
               "relativeTimePattern-count-other": "+{0} y"
@@ -225,17 +225,17 @@
           },
           "mon": {
             "relative-type--1": "It-Tnejn li għadda",
-            "relative-type-0": "Dan It-Tnejn",
+            "relative-type-0": "this Monday",
             "relative-type-1": "It-Tnejn li ġej"
           },
           "mon-short": {
             "relative-type--1": "It-Tnejn li għadda",
-            "relative-type-0": "Dan It-Tnejn",
+            "relative-type-0": "this Monday",
             "relative-type-1": "It-Tnejn li ġej"
           },
           "mon-narrow": {
             "relative-type--1": "It-Tnejn li għadda",
-            "relative-type-0": "Dan It-Tnejn",
+            "relative-type-0": "this Monday",
             "relative-type-1": "It-Tnejn li ġej"
           },
           "tue": {
@@ -314,7 +314,7 @@
             "relative-type-1": "next Saturday"
           },
           "dayperiod": {
-            "displayName": "QN/WN"
+            "displayName": "Dayperiod"
           },
           "hour": {
             "displayName": "Siegħa",
@@ -353,7 +353,7 @@
             }
           },
           "minute-short": {
-            "displayName": "min.",
+            "displayName": "Minuta",
             "relativeTime-type-future": {
               "relativeTimePattern-count-other": "+{0} min"
             },
@@ -362,7 +362,7 @@
             }
           },
           "minute-narrow": {
-            "displayName": "m",
+            "displayName": "Minuta",
             "relativeTime-type-future": {
               "relativeTimePattern-count-other": "+{0} min"
             },
@@ -381,7 +381,7 @@
             }
           },
           "second-short": {
-            "displayName": "sek.",
+            "displayName": "Sekonda",
             "relative-type-0": "now",
             "relativeTime-type-future": {
               "relativeTimePattern-count-other": "+{0} s"
@@ -391,7 +391,7 @@
             }
           },
           "second-narrow": {
-            "displayName": "s",
+            "displayName": "Sekonda",
             "relative-type-0": "now",
             "relativeTime-type-future": {
               "relativeTimePattern-count-other": "+{0} s"

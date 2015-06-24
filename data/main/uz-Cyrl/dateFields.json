@@ -3,11 +3,11 @@
     "uz-Cyrl": {
       "identity": {
         "version": {
-          "_cldrVersion": "26",
-          "_number": "$Revision: 10739 $"
+          "_cldrVersion": "27.0.1",
+          "_number": "$Revision: 11042 $"
         },
         "generation": {
-          "_date": "$Date: 2014-08-07 12:54:13 -0500 (Thu, 07 Aug 2014) $"
+          "_date": "$Date: 2014-10-31 12:11:19 -0500 (Fri, 31 Oct 2014) $"
         },
         "language": "uz",
         "script": "Cyrl"

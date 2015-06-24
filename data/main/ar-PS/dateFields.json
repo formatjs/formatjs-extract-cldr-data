@@ -3,11 +3,11 @@
     "ar-PS": {
       "identity": {
         "version": {
-          "_cldrVersion": "26",
-          "_number": "$Revision: 10819 $"
+          "_cldrVersion": "27.0.1",
+          "_number": "$Revision: 11323 $"
         },
         "generation": {
-          "_date": "$Date: 2014-08-14 22:53:08 -0500 (Thu, 14 Aug 2014) $"
+          "_date": "$Date: 2015-02-26 15:25:28 -0600 (Thu, 26 Feb 2015) $"
         },
         "language": "ar",
         "territory": "PS"
