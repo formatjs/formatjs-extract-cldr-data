@@ -45,6 +45,7 @@ module.exports = function (grunt) {
                 dest  : 'data/',
                 src   : [
                     'LICENSE',
+                    'defaultContent.json',
                     'supplemental/parentLocales.json',
                     'supplemental/plurals.json',
                     'supplemental/ordinals.json',
