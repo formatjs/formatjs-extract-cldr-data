@@ -79,17 +79,6 @@ Boolean for whether or not `pluralRuleFunction`s should be extracted for the spe
 Boolean for whether or not `fields` should be extracted for the specified `locales`. The field data that's extracted is limited to the data required to support FormatJS' relative time formatting features, and it's organized in the shape described above.
 
 
-## Updating the CLDR Data
-
-The CLDR version and data used by this package can be easily updated by running the Grunt task:
-
-```shell
-$ grunt update-cldr-data
-```
-
-Running this task will download the latest version of the CLDR's official JSON files and copy the files required by this package into the `data/` directory.
-
-
 ## License
 
 This software is free to use under the Yahoo Inc. BSD license. See the [LICENSE file][] for license text and copyright information.
