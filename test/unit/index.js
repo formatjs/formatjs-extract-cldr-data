@@ -4,7 +4,7 @@
  * See the accompanying LICENSE file for terms.
  */
 
- /* global describe, it */
+ /* global describe, it, before */
 'use strict';
 
 var expect      = require('expect.js');
@@ -18,9 +18,13 @@ describe('exports', function () {
 });
 
 describe('Data shape', function () {
-    var data = extractData({
-        pluralRules   : true,
-        relativeFields: true,
+    var data;
+
+    before(function () {
+        data = extractData({
+            pluralRules   : true,
+            relativeFields: true,
+        });
     });
 
     it('should be keyed by locale', function () {
