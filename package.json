@@ -9,17 +9,17 @@
   "author": "Eric Ferraiuolo <edf@ericf.me>",
   "license": "BSD-3-Clause",
   "dependencies": {
-    "cldr-core": "35",
-    "cldr-dates-full": "35",
-    "cldr-numbers-full": "35",
-    "glob": "7",
-    "make-plural": "4",
+    "cldr-core": "^34.0.0",
+    "cldr-dates-full": "^34.0.0",
+    "cldr-numbers-full": "^34.0.0",
+    "glob": "^7.0.0",
+    "make-plural": "^4.0.0",
     "object.assign": "^4.0.3",
-    "uglify-js": "3"
+    "uglify-js": "^3.0.0"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
-    "mocha": "6",
+    "mocha": "^6.0.0",
     "nyc": "^14.1.1"
   },
   "repository": {
