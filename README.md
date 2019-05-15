@@ -1,3 +1,5 @@
+# This package has been migrated to the [FormatJS monorepo repository](https://github.com/formatjs/formatjs/tree/master/packages/formatjs-extract-cldr-data).
+
 FormatJS Extract CLDR Data
 ==========================
 
